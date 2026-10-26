@@ -1,0 +1,25 @@
+# Example: customer support and operations. Adapt table names to your ticketing database.
+title: "Support Analytics"
+subtitle: "Ticket volume, response times, backlog and satisfaction."
+eyebrow: "Support · Local AI"
+organization: "the customer support team"
+description: >
+  tickets holds one row per support ticket. A ticket is open until closed_at is set.
+  Times are stored in UTC. Priority is one of low, normal, high, urgent.
+preferred_sources:
+  - name: tickets
+    use_for: "volume, backlog, resolution time, priority and channel"
+metrics:
+  resolution hours: "AVG(TIMESTAMPDIFF(HOUR, created_at, closed_at)) for closed tickets"
+  backlog: "COUNT(*) WHERE closed_at IS NULL"
+glossary:
+  SLA breach: "a ticket whose resolution time exceeded sla_hours"
+  CSAT: "customer satisfaction score, 1 to 5, in tickets.csat_score"
+examples:
+  - "How many tickets were opened and closed each week this quarter?"
+  - "What is the average resolution time by priority?"
+  - "Which agents closed the most tickets last month?"
+hidden_columns:
+  - "tickets.customer_email"
+  - "tickets.customer_phone"
+  - "ticket_messages.body"

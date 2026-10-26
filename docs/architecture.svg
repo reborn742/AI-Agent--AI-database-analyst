@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">AI Database Analyst architecture</title>
+  <desc id="d">A user signs in through the Streamlit UI. Each question passes the rate limiter and the pipeline: schema read, SQL generation by a local Ollama model, SQL validation, then execution in a read-only MySQL transaction. Every step is recorded in the audit log.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#475569"/></marker>
+    <style>
+      .box{fill:#f8fafc;stroke:#94a3b8;stroke-width:1.5}
+      .core{fill:#eff6ff;stroke:#2563eb;stroke-width:2}
+      .gate{fill:#fef2f2;stroke:#dc2626;stroke-width:2.5}
+      .ext{fill:#f0fdf4;stroke:#16a34a;stroke-width:1.5}
+      .log{fill:#fffbeb;stroke:#d97706;stroke-width:1.5}
+      .t{font-size:15px;font-weight:600;fill:#0f172a}
+      .s{font-size:12px;fill:#475569}
+      .l{font-size:11.5px;fill:#334155}
+      .arrow{stroke:#475569;stroke-width:1.8;fill:none;marker-end:url(#a)}
+      .dash{stroke:#d97706;stroke-width:1.4;stroke-dasharray:5 4;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="980" height="560" fill="#ffffff"/>
+  <text x="490" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">AI Database Analyst: request flow and safety boundaries</text>
+
+  <rect rx="10" class="box" x="30" y="70" width="170" height="86"/>
+  <text class="t" x="115" y="102" text-anchor="middle">Analyst</text>
+  <text class="s" x="115" y="124" text-anchor="middle">browser</text>
+  <text class="s" x="115" y="141" text-anchor="middle">asks in plain English</text>
+
+  <rect rx="10" class="core" x="250" y="70" width="210" height="86"/>
+  <text class="t" x="355" y="98" text-anchor="middle">Streamlit UI</text>
+  <text class="s" x="355" y="118" text-anchor="middle">sign-in · session timeout</text>
+  <text class="s" x="355" y="135" text-anchor="middle">per-user rate limit</text>
+
+  <rect rx="10" class="core" x="510" y="70" width="210" height="86"/>
+  <text class="t" x="615" y="98" text-anchor="middle">Service layer</text>
+  <text class="s" x="615" y="118" text-anchor="middle">run_audited()</text>
+  <text class="s" x="615" y="135" text-anchor="middle">attributes every query to a user</text>
+
+  <rect rx="10" class="core" x="770" y="70" width="180" height="86"/>
+  <text class="t" x="860" y="98" text-anchor="middle">Pipeline</text>
+  <text class="s" x="860" y="118" text-anchor="middle">no UI dependencies</text>
+  <text class="s" x="860" y="135" text-anchor="middle">fully unit-tested</text>
+
+  <path class="arrow" d="M200 113H248"/>
+  <path class="arrow" d="M460 113H508"/>
+  <path class="arrow" d="M720 113H768"/>
+
+  <!-- pipeline stages -->
+  <rect rx="10" class="box" x="30" y="230" width="170" height="92"/>
+  <text class="t" x="115" y="260" text-anchor="middle">1 · Read schema</text>
+  <text class="s" x="115" y="282" text-anchor="middle">tables, views, columns</text>
+  <text class="s" x="115" y="299" text-anchor="middle">from MySQL</text>
+
+  <rect rx="10" class="ext" x="250" y="230" width="190" height="92"/>
+  <text class="t" x="345" y="260" text-anchor="middle">2 · Generate SQL</text>
+  <text class="s" x="345" y="282" text-anchor="middle">local Ollama model</text>
+  <text class="s" x="345" y="299" text-anchor="middle">data never leaves the network</text>
+
+  <rect rx="10" class="gate" x="490" y="214" width="210" height="124"/>
+  <text class="t" x="595" y="244" text-anchor="middle">3 · Validate SQL</text>
+  <text class="l" x="595" y="266" text-anchor="middle">SELECT only · one statement</text>
+  <text class="l" x="595" y="283" text-anchor="middle">schema allow-list · function lists</text>
+  <text class="l" x="595" y="300" text-anchor="middle">rebuilt from AST · row cap</text>
+  <text class="s" x="595" y="322" text-anchor="middle" font-weight="600" fill="#b91c1c">THE SECURITY BOUNDARY</text>
+
+  <rect rx="10" class="ext" x="750" y="230" width="200" height="92"/>
+  <text class="t" x="850" y="260" text-anchor="middle">4 · Execute</text>
+  <text class="s" x="850" y="282" text-anchor="middle">READ ONLY transaction</text>
+  <text class="s" x="850" y="299" text-anchor="middle">timeout · SELECT-only account</text>
+
+  <path class="arrow" d="M860 156V190H115V228"/>
+  <path class="arrow" d="M200 276H248"/>
+  <path class="arrow" d="M440 276H488"/>
+  <path class="arrow" d="M700 276H748"/>
+
+  <!-- outputs -->
+  <rect rx="10" class="box" x="750" y="400" width="200" height="86"/>
+  <text class="t" x="850" y="430" text-anchor="middle">5 · Findings</text>
+  <text class="s" x="850" y="452" text-anchor="middle">computed in Python,</text>
+  <text class="s" x="850" y="469" text-anchor="middle">then optional AI explanation</text>
+  <path class="arrow" d="M850 322V398"/>
+
+  <rect rx="10" class="box" x="490" y="400" width="210" height="86"/>
+  <text class="t" x="595" y="430" text-anchor="middle">Results to the analyst</text>
+  <text class="s" x="595" y="452" text-anchor="middle">table · chart · CSV export</text>
+  <text class="s" x="595" y="469" text-anchor="middle">explanation fails independently</text>
+  <path class="arrow" d="M748 443H702"/>
+
+  <!-- audit -->
+  <rect rx="10" class="log" x="30" y="400" width="410" height="86"/>
+  <text class="t" x="235" y="430" text-anchor="middle">Audit log (JSON lines, rotated)</text>
+  <text class="s" x="235" y="452" text-anchor="middle">sign-in · query ok · rejected · error · rate-limited · export</text>
+  <text class="s" x="235" y="469" text-anchor="middle">who · when · question · SQL · rows · duration. Never passwords.</text>
+  <path class="dash" d="M595 338V372H300V398"/>
+
+  <text x="490" y="534" text-anchor="middle" class="s">Red = nothing the model writes reaches the database without passing validation. Dashed = audit events.</text>
+</svg>

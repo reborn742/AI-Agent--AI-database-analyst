@@ -1,0 +1,29 @@
+# Example: finance and billing. Adapt table names to your ERP or billing database.
+title: "Finance Analytics"
+subtitle: "Revenue, receivables and spend by period, customer and cost centre."
+eyebrow: "Finance · Local AI"
+organization: "the finance team"
+description: >
+  invoices holds one row per invoice; payments holds one row per payment received.
+  The fiscal year starts on 1 April. All amounts are in EUR.
+preferred_sources:
+  - name: invoices
+    use_for: "revenue, billing and receivables by customer, product line and period"
+  - name: expenses
+    use_for: "spend by vendor, cost centre and category"
+metrics:
+  revenue: "SUM(invoices.net_amount) for invoices with status <> 'void'"
+  overdue amount: "SUM(invoices.open_amount) WHERE due_date < CURDATE() AND open_amount > 0"
+glossary:
+  DSO: "days sales outstanding: open receivables / revenue * days in period"
+  cost centre: "expenses.cost_centre"
+rules:
+  - "Never add amounts in different currencies; filter on currency or report them separately."
+examples:
+  - "What was revenue by month this fiscal year?"
+  - "Which 10 customers have the largest overdue invoices?"
+  - "Show spend by cost centre for the last quarter."
+hidden_columns:
+  - "*.iban"
+  - "*.tax_id"
+  - "vendors.bank_*"

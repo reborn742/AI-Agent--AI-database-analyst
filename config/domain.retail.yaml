@@ -1,0 +1,57 @@
+# Business profile for the bundled retail demo database (docker/mysql-init).
+# Copy config/domain.example.yaml to start your own.
+
+title: "Retail Analytics"
+subtitle: "Ask about sales, products, customers and regions in plain English. Read-only, validated and audited."
+eyebrow: "Retail analytics · Local AI"
+organization: "a retail company"
+
+description: >
+  Retail sales data. Each row of completed_sales is one product line on a completed order.
+  Orders can be completed, cancelled, returned or pending; only completed orders count as sales.
+
+preferred_sources:
+  - name: completed_sales
+    use_for: "sales, revenue, units sold, profit, customers, products, regions, channels and sales trends"
+
+metrics:
+  revenue: "SUM(completed_sales.line_revenue)"
+  units sold: "SUM(completed_sales.quantity)"
+  estimated gross profit: "SUM(completed_sales.estimated_gross_profit)"
+
+glossary:
+  completed sale: "an order line whose order has status 'completed'"
+  channel: "the sales_channel: Online, Retail Store, Marketplace or Phone"
+
+rules:
+  - "Questions about cancelled, returned or pending orders must use the orders table, because completed_sales only holds completed orders."
+
+tables:
+  orders: "One row per customer order, with status and sales channel"
+  completed_sales: "One row per product line of a completed order, with revenue and estimated gross profit"
+
+columns:
+  "orders.status": "completed, cancelled, returned or pending"
+
+examples:
+  - "Which 5 products sold the most units?"
+  - "Show monthly revenue for the last 12 months."
+  - "Which regions generated the highest estimated gross profit?"
+  - "How many orders are there by sales channel?"
+  - "Compare Online and Retail Store revenue by product category."
+  - "What share of orders were cancelled or returned?"
+
+sql_examples:
+  - question: "Which 5 products sold the most units?"
+    sql: >
+      SELECT product_name, SUM(quantity) AS units_sold FROM completed_sales
+      GROUP BY product_name ORDER BY units_sold DESC LIMIT 5
+  - question: "Show monthly revenue for the last 12 months."
+    sql: >
+      SELECT DATE_FORMAT(order_date, '%Y-%m') AS month, SUM(line_revenue) AS revenue
+      FROM completed_sales WHERE order_date >= DATE_SUB(CURDATE(), INTERVAL 12 MONTH)
+      GROUP BY DATE_FORMAT(order_date, '%Y-%m') ORDER BY month
+  - question: "Which regions generated the highest estimated gross profit?"
+    sql: >
+      SELECT region, SUM(estimated_gross_profit) AS gross_profit FROM completed_sales
+      GROUP BY region ORDER BY gross_profit DESC

@@ -1,0 +1,9 @@
+# Runtime dependencies. Upper bounds stop a new major release from breaking the app unannounced;
+# Dependabot (see .github/dependabot.yml) proposes bumps that CI then verifies.
+mysql-connector-python>=8.0,<27
+pandas>=2.0,<4
+python-dotenv>=1.0,<2
+PyYAML>=6.0,<7
+requests>=2.31,<3
+sqlglot>=25.0,<31
+streamlit>=1.50,<2

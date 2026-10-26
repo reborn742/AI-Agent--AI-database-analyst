@@ -1,0 +1,28 @@
+# Example: people analytics. Adapt table names to your HR database.
+title: "People Analytics"
+subtitle: "Headcount, hiring, attrition and absence, with personal data kept out of reach."
+eyebrow: "HR · Local AI"
+organization: "the HR department"
+description: >
+  One row per employee in employees (current and former). A leaver has a termination_date.
+  Headcount means employees with termination_date IS NULL.
+preferred_sources:
+  - name: employees
+    use_for: "headcount, hires, leavers, departments, tenure and locations"
+metrics:
+  headcount: "COUNT(*) WHERE termination_date IS NULL"
+  attrition rate: "leavers in the period / average headcount in the period"
+glossary:
+  leaver: "an employee with a termination_date"
+  tenure: "years between hire_date and termination_date (or today)"
+rules:
+  - "Report groups smaller than 5 people only as 'fewer than 5' to protect privacy."
+examples:
+  - "What is the current headcount by department?"
+  - "How many people joined and left in each of the last 12 months?"
+hidden_columns:
+  - "employees.salary"
+  - "employees.date_of_birth"
+  - "employees.home_address"
+  - "employees.national_id"
+  - "*.bank_account*"

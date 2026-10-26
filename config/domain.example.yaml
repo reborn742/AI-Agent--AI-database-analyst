@@ -1,0 +1,72 @@
+# Business profile template. Copy to config/domain.yaml, edit, then set
+#   ANALYST_DOMAIN_FILE=config/domain.yaml
+# Every key is optional. Without a profile the analyst works from the live schema alone.
+# Changes apply to the next question (no restart). Check your file with:
+#   python -m ai_database_analyst check
+
+# ---- What users see -------------------------------------------------------
+title: "Acme Finance Analytics"
+subtitle: "Ask about revenue, costs and budgets in plain English."
+eyebrow: "Finance · Local AI"
+
+# ---- What the model is told about your business ---------------------------
+organization: "Acme Corp"
+description: >
+  Two or three sentences: what this database holds, what one row of the main tables means,
+  the fiscal calendar, currency, and anything a new analyst would need to know on day one.
+
+# Tables or views to try first, and what they are good for. These should be clean, curated
+# views (one row per business event, with readable names) rather than raw normalised tables.
+preferred_sources:
+  - name: invoices_view
+    use_for: "revenue, billing, customers, payments and receivables"
+
+# How your organisation defines its numbers. Put the SQL expression where you can.
+metrics:
+  revenue: "SUM(invoices_view.net_amount)"
+  gross margin: "SUM(net_amount - cost_amount) / NULLIF(SUM(net_amount), 0)"
+
+# Words people use that the schema does not spell out.
+glossary:
+  ARR: "annual recurring revenue: the sum of active subscription annualised value"
+  FY: "fiscal year, which starts on 1 April"
+
+# Extra business rules, one sentence each.
+rules:
+  - "Amounts are in EUR. Never add amounts of different currencies together."
+  - "Exclude rows where status = 'void' from every financial total."
+
+# Descriptions that sit next to the schema in the prompt (they override database comments).
+tables:
+  invoices_view: "One row per invoice line, already joined to customer and product"
+columns:
+  "invoices_view.status": "draft, sent, paid or void"
+
+# Questions shown to users as inspiration.
+examples:
+  - "What was revenue by month this fiscal year?"
+  - "Which customers have the largest overdue invoices?"
+
+# A few worked examples teach the model your conventions better than prose.
+# Each one is validated against the live schema; invalid ones are ignored (see `check`).
+sql_examples:
+  - question: "What was revenue by month in the last 6 months?"
+    sql: >
+      SELECT DATE_FORMAT(invoice_date, '%Y-%m') AS month, SUM(net_amount) AS revenue
+      FROM invoices_view WHERE invoice_date >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH) AND status <> 'void'
+      GROUP BY DATE_FORMAT(invoice_date, '%Y-%m') ORDER BY month
+
+# ---- What must stay invisible ---------------------------------------------
+# Hidden tables and columns are removed from the schema the model sees AND blocked by the
+# validator (including SELECT * and bare column names). Glob patterns: * matches anything.
+hidden_tables:
+  - "audit_*"
+  - "payroll"
+hidden_columns:
+  - "customers.email"
+  - "customers.phone"
+  - "*.tax_id"
+
+# Columns named like password, secret, api_key, ssn, credit_card, card_number or cvv are hidden by
+# default. Set to false only if you are certain no such column exists.
+hide_sensitive_defaults: true

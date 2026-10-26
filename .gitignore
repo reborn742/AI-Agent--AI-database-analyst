@@ -1,0 +1,25 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Local state that must never be committed
+secrets/
+data/
+logs/
+*.jsonl
+dist/
+.coverage
+htmlcov/
+
+# Sensitive archives and local configuration
+SECURITY.zip
+.env
+secrets/
+

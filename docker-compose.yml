@@ -1,0 +1,111 @@
+# One-command stack: the app, MySQL (seeded with demo data) and Ollama (local LLM).
+#
+#   python scripts/init_secrets.py          # once: generates ./secrets/*.txt
+#   docker compose up -d --build
+#   docker compose run --rm app python -m ai_database_analyst users add admin
+#   open http://localhost:8501
+#
+# Nothing is published beyond localhost. Put a TLS reverse proxy in front for real use
+# (see docs/DEPLOYMENT.md).
+
+name: ai-database-analyst
+
+services:
+  app:
+    build: .
+    image: ai-database-analyst:latest
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+      # Do not start the app until the model is installed; otherwise every request is a 404.
+      ollama-pull:
+        condition: service_completed_successfully
+    environment:
+      ANALYST_DB_HOST: db
+      ANALYST_DB_NAME: retail_analytics
+      ANALYST_DOMAIN_FILE: /app/config/domain.retail.yaml
+      ANALYST_OLLAMA_URL: http://ollama:11434/api/generate
+      ANALYST_MODEL: ${ANALYST_MODEL:-qwen2.5:3b}
+      ANALYST_LOG_FORMAT: json
+      ANALYST_DB_PASSWORD_FILE: /run/secrets/analyst_db_password
+    secrets:
+      - analyst_db_password
+    volumes:
+      - app_data:/app/data
+      - app_logs:/app/logs
+    ports:
+      - "127.0.0.1:${APP_PORT:-8501}:8501"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+  db:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: retail_analytics
+      MYSQL_ROOT_PASSWORD_FILE: /run/secrets/mysql_root_password
+    secrets:
+      - mysql_root_password
+      - analyst_db_password
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./docker/mysql-init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p\"$$(cat /run/secrets/mysql_root_password)\" --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+
+  ollama:
+    image: ollama/ollama:latest
+    restart: unless-stopped
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 10s
+    # GPU (NVIDIA): uncomment, and install the NVIDIA Container Toolkit.
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+  # One-shot job: downloads the model into the ollama volume, then exits. It skips the download
+  # when the model is already installed, so restarts work without internet access.
+  ollama-pull:
+    image: ollama/ollama:latest
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      MODEL: ${ANALYST_MODEL:-qwen2.5:3b}
+    entrypoint:
+      - /bin/sh
+      - -c
+      - 'if ollama list | grep -q "^$$MODEL[[:space:]]"; then echo "Model $$MODEL already installed"; else ollama pull "$$MODEL"; fi'
+    restart: "no"
+
+secrets:
+  mysql_root_password:
+    file: ./secrets/mysql_root_password.txt
+  analyst_db_password:
+    file: ./secrets/analyst_db_password.txt
+
+volumes:
+  db_data:
+  ollama_data:
+  app_data:
+  app_logs:
