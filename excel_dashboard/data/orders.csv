@@ -1,0 +1,1401 @@
+order_id,customer_id,order_date,sales_channel,status
+1,50,2026-08-23,Retail Store,completed
+2,77,2026-02-27,Retail Store,completed
+3,64,2026-05-07,Online,completed
+4,68,2025-07-04,Online,completed
+5,30,2025-06-06,Online,completed
+6,48,2025-08-17,Online,completed
+7,68,2025-06-15,Phone,returned
+8,78,2026-09-27,Online,pending
+9,55,2026-07-19,Retail Store,completed
+10,80,2025-09-10,Online,completed
+11,73,2025-08-27,Online,returned
+12,71,2026-01-11,Marketplace,completed
+13,60,2025-11-14,Retail Store,completed
+14,59,2025-11-08,Retail Store,returned
+15,52,2026-10-20,Retail Store,cancelled
+16,73,2026-03-31,Phone,pending
+17,70,2025-08-03,Retail Store,completed
+18,63,2026-06-20,Marketplace,completed
+19,16,2026-01-20,Retail Store,pending
+20,2,2026-08-31,Online,completed
+21,71,2026-05-04,Online,completed
+22,37,2025-06-02,Online,completed
+23,42,2026-10-02,Marketplace,completed
+24,43,2026-03-21,Online,completed
+25,60,2025-09-19,Marketplace,completed
+26,51,2026-11-03,Online,completed
+27,36,2026-10-24,Online,completed
+28,59,2025-12-10,Marketplace,completed
+29,79,2026-09-02,Retail Store,completed
+30,17,2025-11-02,Marketplace,completed
+31,12,2025-10-25,Marketplace,completed
+32,26,2025-09-14,Online,completed
+33,25,2026-07-04,Online,completed
+34,6,2026-07-18,Online,completed
+35,6,2025-08-13,Retail Store,completed
+36,16,2026-07-14,Marketplace,completed
+37,24,2026-06-24,Marketplace,completed
+38,22,2026-02-14,Online,completed
+39,64,2026-02-16,Marketplace,completed
+40,29,2026-10-04,Marketplace,completed
+41,31,2025-06-02,Online,completed
+42,24,2026-02-09,Online,completed
+43,50,2026-01-11,Phone,cancelled
+44,61,2026-09-08,Retail Store,completed
+45,21,2026-03-02,Marketplace,completed
+46,21,2026-05-18,Retail Store,completed
+47,54,2026-05-11,Marketplace,completed
+48,40,2025-05-22,Online,pending
+49,35,2025-10-28,Marketplace,pending
+50,26,2025-10-13,Retail Store,completed
+51,63,2025-12-19,Marketplace,returned
+52,60,2025-12-26,Online,completed
+53,5,2026-04-28,Online,completed
+54,35,2026-09-30,Retail Store,completed
+55,37,2026-01-14,Marketplace,completed
+56,16,2026-09-24,Online,completed
+57,9,2025-10-03,Marketplace,completed
+58,65,2025-07-24,Marketplace,completed
+59,17,2025-07-05,Retail Store,cancelled
+60,58,2026-03-02,Marketplace,cancelled
+61,26,2025-12-26,Retail Store,completed
+62,33,2026-07-31,Retail Store,completed
+63,23,2025-12-16,Online,completed
+64,73,2025-10-16,Online,completed
+65,78,2025-07-05,Marketplace,completed
+66,25,2026-05-09,Online,completed
+67,5,2026-11-02,Online,completed
+68,22,2026-02-28,Online,completed
+69,11,2025-06-25,Online,returned
+70,41,2026-02-10,Online,completed
+71,35,2026-04-22,Retail Store,cancelled
+72,65,2026-05-05,Online,completed
+73,47,2026-01-14,Online,completed
+74,64,2025-06-04,Retail Store,returned
+75,11,2026-08-27,Online,completed
+76,21,2026-07-10,Retail Store,cancelled
+77,8,2025-12-18,Retail Store,completed
+78,56,2025-12-28,Marketplace,completed
+79,78,2025-10-15,Online,completed
+80,23,2025-06-02,Marketplace,completed
+81,74,2026-04-09,Marketplace,completed
+82,65,2026-01-19,Retail Store,completed
+83,27,2026-05-21,Phone,completed
+84,27,2026-07-08,Online,completed
+85,53,2026-01-27,Marketplace,completed
+86,54,2026-02-28,Online,completed
+87,31,2026-05-25,Marketplace,completed
+88,64,2026-06-28,Retail Store,completed
+89,26,2026-03-31,Online,completed
+90,2,2026-07-06,Marketplace,completed
+91,49,2026-09-30,Online,completed
+92,79,2026-02-06,Retail Store,completed
+93,46,2025-06-23,Online,completed
+94,22,2026-10-09,Online,completed
+95,39,2026-03-28,Online,completed
+96,52,2026-03-17,Marketplace,completed
+97,10,2025-12-07,Online,completed
+98,73,2026-08-17,Retail Store,completed
+99,44,2026-06-23,Phone,completed
+100,38,2026-05-10,Online,completed
+101,29,2025-08-07,Online,completed
+102,80,2026-09-13,Online,completed
+103,30,2026-03-17,Online,completed
+104,39,2026-05-24,Retail Store,completed
+105,29,2025-10-16,Retail Store,returned
+106,73,2025-07-30,Marketplace,completed
+107,44,2026-09-19,Retail Store,completed
+108,64,2026-01-09,Online,completed
+109,16,2026-07-24,Online,completed
+110,49,2026-05-24,Marketplace,completed
+111,10,2026-05-26,Phone,returned
+112,49,2025-11-09,Marketplace,cancelled
+113,7,2026-10-23,Online,completed
+114,54,2025-09-29,Online,completed
+115,76,2025-12-11,Online,completed
+116,4,2026-05-31,Online,completed
+117,79,2026-10-30,Marketplace,completed
+118,7,2025-08-31,Online,completed
+119,61,2026-04-25,Online,completed
+120,7,2025-11-19,Retail Store,completed
+121,1,2026-05-25,Marketplace,completed
+122,61,2026-03-08,Retail Store,completed
+123,17,2026-09-02,Online,completed
+124,3,2025-09-18,Online,completed
+125,16,2026-09-02,Online,completed
+126,37,2026-09-11,Online,completed
+127,18,2026-08-16,Retail Store,completed
+128,3,2025-08-20,Marketplace,completed
+129,70,2026-04-12,Online,completed
+130,22,2025-11-30,Online,returned
+131,68,2026-10-09,Retail Store,completed
+132,6,2025-12-08,Online,completed
+133,40,2026-02-12,Retail Store,completed
+134,75,2025-10-27,Retail Store,completed
+135,64,2026-07-29,Online,completed
+136,29,2025-12-14,Retail Store,cancelled
+137,76,2026-03-04,Online,completed
+138,24,2026-03-16,Online,returned
+139,71,2026-05-15,Online,completed
+140,17,2025-09-23,Phone,completed
+141,59,2026-04-01,Online,completed
+142,22,2026-06-24,Retail Store,completed
+143,8,2025-11-18,Phone,completed
+144,53,2025-06-14,Marketplace,completed
+145,20,2026-05-27,Online,completed
+146,17,2025-12-18,Marketplace,completed
+147,78,2025-07-13,Online,completed
+148,44,2026-03-22,Online,completed
+149,62,2026-07-19,Online,completed
+150,28,2026-02-16,Online,completed
+151,6,2026-01-07,Online,completed
+152,6,2026-05-31,Marketplace,completed
+153,69,2025-09-12,Phone,completed
+154,60,2025-07-29,Retail Store,completed
+155,64,2026-02-09,Online,completed
+156,32,2026-10-07,Retail Store,pending
+157,70,2026-08-01,Online,completed
+158,71,2026-09-13,Online,completed
+159,73,2026-05-05,Marketplace,completed
+160,34,2026-08-22,Online,completed
+161,63,2025-06-24,Retail Store,completed
+162,60,2025-05-24,Retail Store,completed
+163,72,2025-09-14,Retail Store,completed
+164,22,2026-04-01,Retail Store,cancelled
+165,70,2025-08-10,Online,cancelled
+166,45,2026-08-19,Marketplace,completed
+167,49,2025-12-27,Retail Store,completed
+168,37,2025-10-08,Marketplace,completed
+169,3,2025-10-29,Marketplace,cancelled
+170,66,2026-09-21,Online,completed
+171,60,2026-07-12,Online,completed
+172,44,2026-08-14,Online,completed
+173,4,2026-05-18,Marketplace,completed
+174,75,2026-04-29,Online,completed
+175,30,2026-03-23,Retail Store,completed
+176,12,2026-02-14,Retail Store,completed
+177,64,2026-09-19,Online,completed
+178,52,2026-05-03,Marketplace,cancelled
+179,18,2026-04-19,Marketplace,completed
+180,58,2025-09-09,Marketplace,completed
+181,43,2025-10-29,Online,completed
+182,24,2025-12-08,Marketplace,completed
+183,7,2025-11-15,Marketplace,completed
+184,41,2026-07-27,Retail Store,completed
+185,48,2025-07-20,Marketplace,returned
+186,64,2025-09-17,Retail Store,completed
+187,39,2026-04-22,Online,completed
+188,66,2025-08-21,Online,completed
+189,14,2026-08-10,Online,completed
+190,52,2026-03-25,Online,completed
+191,11,2026-04-07,Online,completed
+192,63,2025-10-04,Online,completed
+193,2,2026-02-05,Online,completed
+194,23,2026-08-10,Online,completed
+195,39,2026-07-18,Online,completed
+196,14,2026-06-28,Online,completed
+197,22,2026-10-07,Online,completed
+198,46,2026-07-27,Online,completed
+199,60,2026-09-15,Phone,completed
+200,46,2026-10-16,Retail Store,completed
+201,38,2026-05-29,Marketplace,completed
+202,45,2026-01-02,Online,completed
+203,77,2025-12-22,Online,completed
+204,2,2026-06-17,Marketplace,completed
+205,70,2026-04-20,Retail Store,completed
+206,27,2026-04-04,Retail Store,returned
+207,78,2026-05-18,Retail Store,completed
+208,68,2025-09-06,Marketplace,completed
+209,35,2026-04-01,Online,returned
+210,25,2025-08-15,Phone,completed
+211,22,2025-07-15,Online,completed
+212,3,2025-08-16,Retail Store,completed
+213,73,2026-09-06,Marketplace,completed
+214,79,2026-01-07,Marketplace,cancelled
+215,54,2026-07-10,Online,returned
+216,76,2026-06-24,Online,completed
+217,25,2025-10-19,Online,completed
+218,37,2025-08-28,Phone,completed
+219,38,2026-01-21,Online,returned
+220,78,2026-05-02,Online,completed
+221,37,2026-08-06,Online,completed
+222,50,2026-08-17,Marketplace,cancelled
+223,68,2025-10-09,Retail Store,completed
+224,32,2025-07-07,Retail Store,completed
+225,71,2026-09-06,Online,returned
+226,63,2026-05-22,Online,completed
+227,4,2025-07-20,Marketplace,completed
+228,42,2025-11-01,Marketplace,completed
+229,10,2026-08-12,Online,completed
+230,45,2025-11-05,Marketplace,completed
+231,21,2025-12-10,Online,completed
+232,31,2026-08-03,Retail Store,completed
+233,13,2026-10-27,Marketplace,completed
+234,40,2025-11-23,Online,completed
+235,38,2025-07-30,Phone,completed
+236,33,2026-07-07,Online,completed
+237,20,2026-10-28,Online,completed
+238,29,2025-12-25,Online,completed
+239,65,2026-07-12,Online,completed
+240,28,2026-08-02,Online,completed
+241,53,2026-01-31,Online,completed
+242,35,2026-10-22,Online,completed
+243,54,2026-03-10,Online,completed
+244,26,2025-10-16,Marketplace,completed
+245,53,2025-10-24,Marketplace,completed
+246,71,2026-05-31,Online,completed
+247,31,2026-01-29,Marketplace,completed
+248,9,2025-07-17,Retail Store,completed
+249,77,2026-06-22,Retail Store,completed
+250,44,2026-04-11,Marketplace,completed
+251,65,2026-07-07,Online,completed
+252,74,2025-07-11,Marketplace,completed
+253,70,2026-06-29,Marketplace,completed
+254,77,2026-09-11,Online,completed
+255,67,2026-04-03,Online,completed
+256,28,2025-06-05,Online,completed
+257,51,2026-05-13,Online,completed
+258,54,2026-01-30,Online,pending
+259,50,2026-05-05,Online,completed
+260,10,2026-08-12,Online,completed
+261,5,2025-12-24,Online,completed
+262,69,2026-04-28,Retail Store,completed
+263,70,2026-05-17,Retail Store,pending
+264,64,2026-04-10,Retail Store,completed
+265,56,2026-01-20,Online,completed
+266,40,2025-09-22,Online,completed
+267,75,2026-03-14,Marketplace,completed
+268,16,2026-08-22,Retail Store,completed
+269,62,2026-07-27,Retail Store,cancelled
+270,45,2026-01-22,Marketplace,completed
+271,8,2026-01-05,Online,completed
+272,39,2025-10-26,Online,completed
+273,77,2026-09-16,Retail Store,completed
+274,12,2026-06-19,Online,completed
+275,38,2026-03-09,Online,completed
+276,54,2025-08-05,Online,completed
+277,12,2026-09-12,Marketplace,completed
+278,39,2026-04-03,Online,completed
+279,18,2025-09-16,Online,completed
+280,10,2026-06-26,Retail Store,completed
+281,55,2026-07-08,Retail Store,completed
+282,55,2026-09-23,Retail Store,completed
+283,68,2026-08-06,Online,completed
+284,31,2026-10-28,Online,completed
+285,29,2026-01-30,Online,completed
+286,36,2025-06-21,Online,completed
+287,53,2026-04-24,Online,cancelled
+288,49,2026-09-10,Retail Store,completed
+289,10,2025-11-27,Online,completed
+290,17,2026-07-01,Online,returned
+291,16,2025-07-22,Marketplace,completed
+292,73,2025-08-21,Online,returned
+293,21,2026-04-14,Marketplace,completed
+294,50,2026-10-23,Online,completed
+295,17,2025-08-21,Online,completed
+296,23,2025-07-26,Online,completed
+297,65,2026-06-17,Online,completed
+298,33,2025-08-30,Retail Store,completed
+299,49,2026-03-24,Retail Store,completed
+300,51,2025-12-30,Retail Store,completed
+301,20,2026-03-22,Marketplace,completed
+302,35,2026-01-15,Online,completed
+303,74,2025-12-11,Retail Store,completed
+304,47,2026-07-19,Online,completed
+305,39,2025-05-27,Online,completed
+306,71,2025-12-14,Marketplace,completed
+307,2,2025-08-24,Online,completed
+308,6,2025-09-10,Phone,completed
+309,78,2025-07-22,Online,pending
+310,44,2025-07-14,Retail Store,completed
+311,43,2025-06-05,Online,completed
+312,23,2025-09-24,Online,completed
+313,27,2025-10-04,Retail Store,completed
+314,34,2026-05-21,Online,pending
+315,15,2025-06-01,Online,completed
+316,8,2025-07-10,Online,completed
+317,70,2026-06-23,Online,completed
+318,68,2026-03-09,Phone,completed
+319,52,2026-02-12,Marketplace,cancelled
+320,78,2025-06-22,Online,completed
+321,17,2026-08-29,Retail Store,completed
+322,6,2026-10-21,Online,returned
+323,7,2025-11-05,Online,completed
+324,8,2026-02-09,Online,completed
+325,8,2026-02-13,Phone,completed
+326,43,2026-08-25,Marketplace,completed
+327,24,2026-05-20,Online,completed
+328,49,2026-03-01,Phone,pending
+329,65,2026-10-16,Online,completed
+330,31,2026-08-31,Online,completed
+331,3,2025-08-29,Marketplace,completed
+332,9,2026-03-12,Online,completed
+333,79,2025-06-30,Marketplace,completed
+334,40,2026-02-13,Online,completed
+335,79,2026-06-02,Online,completed
+336,15,2026-02-20,Phone,completed
+337,34,2026-07-06,Online,completed
+338,77,2026-05-23,Online,completed
+339,65,2025-08-16,Online,completed
+340,21,2025-06-10,Retail Store,completed
+341,67,2025-09-22,Retail Store,completed
+342,17,2025-11-18,Marketplace,completed
+343,75,2025-09-08,Online,completed
+344,19,2026-07-25,Retail Store,completed
+345,29,2025-07-01,Online,completed
+346,50,2026-08-01,Retail Store,completed
+347,15,2026-04-20,Marketplace,completed
+348,75,2025-12-07,Marketplace,completed
+349,56,2025-11-23,Marketplace,completed
+350,57,2025-10-16,Online,completed
+351,30,2026-07-21,Online,completed
+352,76,2025-10-04,Retail Store,completed
+353,18,2026-04-28,Online,completed
+354,20,2025-12-06,Retail Store,completed
+355,22,2026-08-14,Online,completed
+356,18,2026-10-22,Online,cancelled
+357,64,2025-08-19,Online,returned
+358,50,2026-08-24,Online,completed
+359,17,2025-12-19,Phone,completed
+360,23,2025-11-20,Phone,completed
+361,40,2026-01-28,Online,completed
+362,31,2025-12-15,Online,completed
+363,18,2026-04-30,Retail Store,returned
+364,19,2026-02-18,Marketplace,completed
+365,70,2026-10-24,Retail Store,completed
+366,69,2025-12-25,Online,completed
+367,36,2026-03-14,Phone,completed
+368,31,2026-09-29,Online,cancelled
+369,22,2025-06-06,Online,cancelled
+370,26,2026-05-10,Online,completed
+371,9,2026-06-20,Retail Store,completed
+372,21,2026-05-15,Online,completed
+373,29,2025-12-03,Online,cancelled
+374,54,2026-10-07,Retail Store,completed
+375,38,2026-03-03,Online,completed
+376,31,2026-03-24,Online,completed
+377,32,2026-09-05,Marketplace,completed
+378,19,2025-06-01,Online,completed
+379,2,2026-03-30,Online,completed
+380,23,2026-09-30,Marketplace,completed
+381,56,2026-06-08,Retail Store,completed
+382,33,2025-12-28,Online,completed
+383,46,2025-07-18,Phone,completed
+384,58,2026-07-15,Online,completed
+385,56,2025-11-18,Marketplace,completed
+386,73,2026-10-17,Phone,completed
+387,34,2026-02-13,Marketplace,cancelled
+388,31,2025-11-15,Online,completed
+389,28,2025-10-06,Online,completed
+390,64,2026-05-28,Marketplace,pending
+391,59,2026-08-18,Retail Store,completed
+392,25,2025-12-18,Online,completed
+393,78,2025-11-16,Online,returned
+394,21,2025-07-27,Online,completed
+395,66,2026-02-08,Retail Store,completed
+396,41,2026-10-12,Retail Store,completed
+397,1,2026-07-12,Online,completed
+398,6,2025-08-02,Marketplace,returned
+399,18,2026-08-30,Online,completed
+400,23,2026-06-29,Online,completed
+401,7,2026-03-31,Online,completed
+402,55,2025-07-17,Retail Store,completed
+403,52,2026-02-08,Online,pending
+404,14,2026-08-12,Marketplace,returned
+405,53,2025-07-20,Online,completed
+406,28,2025-12-15,Retail Store,completed
+407,45,2026-06-04,Retail Store,completed
+408,40,2025-06-05,Retail Store,completed
+409,48,2026-01-18,Online,cancelled
+410,55,2026-02-16,Retail Store,completed
+411,53,2026-02-22,Online,completed
+412,80,2025-12-15,Phone,completed
+413,56,2026-08-18,Online,completed
+414,12,2025-11-21,Marketplace,completed
+415,42,2025-11-25,Online,completed
+416,12,2026-07-10,Phone,completed
+417,45,2025-11-18,Online,completed
+418,48,2026-05-11,Online,cancelled
+419,68,2025-05-23,Retail Store,completed
+420,54,2025-11-21,Online,completed
+421,3,2025-09-27,Online,completed
+422,51,2026-08-19,Retail Store,completed
+423,21,2026-10-14,Online,completed
+424,32,2026-08-23,Marketplace,completed
+425,13,2026-05-18,Retail Store,completed
+426,35,2025-05-31,Online,completed
+427,25,2026-03-22,Marketplace,completed
+428,70,2026-09-01,Online,completed
+429,45,2026-01-29,Marketplace,completed
+430,13,2025-07-11,Retail Store,completed
+431,32,2025-10-14,Retail Store,completed
+432,77,2026-01-01,Phone,completed
+433,15,2026-08-08,Retail Store,completed
+434,49,2026-02-10,Online,completed
+435,4,2026-09-27,Retail Store,completed
+436,69,2025-12-12,Marketplace,returned
+437,80,2025-12-29,Online,completed
+438,45,2025-07-15,Online,completed
+439,65,2025-07-24,Online,cancelled
+440,55,2026-04-13,Marketplace,completed
+441,39,2026-05-10,Online,completed
+442,5,2025-06-02,Online,completed
+443,19,2026-04-08,Online,completed
+444,29,2026-04-27,Retail Store,completed
+445,17,2026-10-03,Online,completed
+446,28,2026-01-16,Retail Store,completed
+447,77,2025-09-25,Online,completed
+448,78,2026-01-09,Phone,completed
+449,10,2026-03-02,Online,completed
+450,21,2026-04-30,Retail Store,completed
+451,57,2026-05-31,Online,completed
+452,35,2026-07-17,Retail Store,completed
+453,58,2026-08-11,Online,completed
+454,74,2026-02-01,Online,completed
+455,13,2026-04-30,Online,completed
+456,24,2026-07-01,Online,completed
+457,4,2026-05-19,Retail Store,cancelled
+458,46,2026-05-17,Marketplace,completed
+459,76,2025-06-24,Online,completed
+460,31,2025-10-01,Marketplace,cancelled
+461,72,2026-05-11,Marketplace,completed
+462,40,2025-08-26,Online,completed
+463,32,2026-10-06,Marketplace,completed
+464,14,2026-09-27,Online,completed
+465,40,2026-08-12,Online,completed
+466,45,2026-03-25,Online,completed
+467,80,2026-08-24,Phone,completed
+468,76,2026-06-06,Marketplace,completed
+469,77,2025-06-14,Retail Store,completed
+470,18,2025-11-04,Online,completed
+471,42,2026-05-27,Online,completed
+472,33,2026-03-30,Online,completed
+473,54,2026-08-11,Online,completed
+474,46,2025-11-10,Online,completed
+475,35,2025-10-17,Marketplace,completed
+476,9,2026-04-12,Online,completed
+477,38,2025-12-08,Phone,completed
+478,24,2026-05-28,Online,completed
+479,25,2026-09-19,Retail Store,completed
+480,24,2025-11-08,Online,completed
+481,53,2026-06-15,Retail Store,completed
+482,44,2026-03-02,Online,completed
+483,6,2025-08-19,Retail Store,completed
+484,32,2026-01-11,Retail Store,completed
+485,78,2026-02-27,Online,cancelled
+486,80,2026-05-19,Marketplace,cancelled
+487,20,2025-10-24,Online,completed
+488,72,2026-11-01,Retail Store,completed
+489,33,2025-12-01,Online,completed
+490,35,2026-10-26,Online,completed
+491,71,2026-07-31,Retail Store,completed
+492,28,2026-07-04,Online,completed
+493,30,2026-09-08,Online,cancelled
+494,73,2026-08-24,Online,completed
+495,15,2025-07-09,Phone,completed
+496,73,2026-03-13,Retail Store,completed
+497,49,2025-09-21,Marketplace,completed
+498,12,2026-07-14,Online,cancelled
+499,23,2026-10-29,Marketplace,completed
+500,9,2026-09-18,Online,completed
+501,48,2026-07-13,Marketplace,completed
+502,36,2026-05-24,Online,completed
+503,76,2026-02-07,Online,completed
+504,38,2026-02-24,Phone,completed
+505,24,2026-04-28,Online,completed
+506,51,2025-09-08,Online,completed
+507,56,2025-06-06,Online,cancelled
+508,74,2025-12-31,Online,completed
+509,65,2026-02-02,Marketplace,returned
+510,23,2026-10-05,Retail Store,pending
+511,79,2025-07-06,Online,completed
+512,70,2026-08-27,Retail Store,completed
+513,12,2026-01-09,Online,completed
+514,32,2025-10-27,Retail Store,completed
+515,8,2026-08-06,Online,completed
+516,54,2026-05-05,Retail Store,completed
+517,37,2025-11-21,Online,cancelled
+518,14,2025-11-24,Marketplace,completed
+519,74,2026-08-27,Retail Store,completed
+520,43,2025-12-11,Marketplace,pending
+521,32,2026-01-13,Online,completed
+522,44,2026-08-22,Phone,completed
+523,78,2026-08-06,Phone,completed
+524,2,2026-03-05,Retail Store,completed
+525,21,2026-05-25,Online,completed
+526,40,2026-09-06,Online,completed
+527,48,2026-03-01,Retail Store,completed
+528,31,2026-05-13,Marketplace,completed
+529,62,2025-12-05,Online,completed
+530,32,2025-10-27,Marketplace,completed
+531,34,2026-07-10,Retail Store,completed
+532,42,2025-10-12,Online,completed
+533,80,2026-10-24,Online,returned
+534,46,2026-01-31,Phone,completed
+535,60,2026-03-24,Online,completed
+536,49,2026-11-03,Online,completed
+537,8,2026-10-23,Online,completed
+538,36,2026-07-02,Retail Store,completed
+539,11,2025-11-02,Retail Store,completed
+540,65,2026-09-11,Retail Store,completed
+541,34,2025-08-07,Online,completed
+542,67,2026-01-19,Online,completed
+543,33,2026-09-07,Online,completed
+544,61,2026-08-11,Marketplace,cancelled
+545,74,2026-02-19,Retail Store,completed
+546,46,2026-01-13,Online,completed
+547,48,2026-10-11,Online,completed
+548,3,2026-05-22,Marketplace,completed
+549,76,2026-02-27,Marketplace,completed
+550,27,2026-09-06,Online,completed
+551,47,2026-01-22,Online,completed
+552,63,2025-09-13,Online,completed
+553,23,2026-06-26,Marketplace,completed
+554,12,2026-03-20,Retail Store,completed
+555,59,2026-08-20,Online,completed
+556,11,2026-03-31,Phone,completed
+557,22,2026-06-18,Online,completed
+558,2,2026-07-02,Online,completed
+559,67,2026-03-01,Marketplace,completed
+560,75,2026-05-24,Marketplace,completed
+561,18,2025-11-20,Online,completed
+562,55,2026-06-24,Retail Store,completed
+563,28,2026-08-09,Online,completed
+564,56,2025-06-13,Online,completed
+565,23,2026-05-24,Retail Store,completed
+566,6,2026-05-25,Online,completed
+567,48,2025-07-16,Retail Store,cancelled
+568,64,2025-11-06,Online,completed
+569,37,2026-07-06,Online,completed
+570,50,2026-09-14,Online,cancelled
+571,44,2026-10-11,Marketplace,completed
+572,7,2026-05-16,Online,completed
+573,31,2026-10-10,Online,completed
+574,63,2025-10-22,Online,completed
+575,69,2025-09-27,Retail Store,cancelled
+576,39,2026-04-20,Retail Store,completed
+577,24,2026-07-16,Online,completed
+578,60,2025-08-23,Phone,completed
+579,73,2026-04-17,Marketplace,completed
+580,32,2026-07-12,Online,completed
+581,24,2025-07-03,Retail Store,completed
+582,27,2026-05-09,Online,completed
+583,42,2026-08-17,Marketplace,completed
+584,26,2026-02-12,Online,completed
+585,3,2026-03-17,Marketplace,completed
+586,17,2025-12-03,Phone,completed
+587,59,2026-06-20,Retail Store,completed
+588,72,2026-07-08,Online,completed
+589,14,2026-08-21,Online,cancelled
+590,68,2026-05-01,Marketplace,completed
+591,36,2026-01-26,Marketplace,completed
+592,7,2026-02-06,Online,returned
+593,50,2026-05-30,Retail Store,completed
+594,76,2026-08-26,Online,completed
+595,71,2026-03-23,Online,completed
+596,14,2025-11-25,Online,completed
+597,61,2025-10-23,Retail Store,completed
+598,10,2026-05-25,Marketplace,completed
+599,38,2026-01-26,Retail Store,completed
+600,24,2026-01-18,Online,completed
+601,4,2026-04-11,Online,completed
+602,68,2026-04-17,Marketplace,completed
+603,9,2026-02-08,Marketplace,completed
+604,67,2026-01-26,Marketplace,completed
+605,27,2026-04-01,Online,completed
+606,69,2026-01-17,Retail Store,completed
+607,8,2025-11-01,Online,completed
+608,33,2025-05-29,Online,completed
+609,49,2025-09-08,Online,completed
+610,51,2026-10-10,Online,completed
+611,67,2026-05-22,Marketplace,completed
+612,78,2026-01-24,Marketplace,pending
+613,69,2026-07-05,Online,completed
+614,18,2026-08-16,Online,completed
+615,37,2026-05-13,Marketplace,completed
+616,36,2026-01-15,Marketplace,returned
+617,65,2026-05-27,Online,returned
+618,18,2026-05-11,Online,completed
+619,26,2025-09-23,Online,completed
+620,50,2026-09-07,Marketplace,completed
+621,57,2026-08-12,Retail Store,completed
+622,70,2025-11-10,Retail Store,completed
+623,49,2025-07-16,Retail Store,cancelled
+624,2,2026-05-05,Online,completed
+625,77,2026-04-14,Online,completed
+626,71,2026-04-14,Marketplace,completed
+627,26,2026-05-11,Retail Store,completed
+628,38,2025-08-09,Online,completed
+629,8,2026-05-21,Online,completed
+630,1,2026-10-27,Retail Store,completed
+631,1,2025-07-15,Online,completed
+632,78,2026-09-20,Retail Store,completed
+633,46,2026-01-12,Retail Store,completed
+634,10,2026-03-04,Online,completed
+635,38,2026-02-18,Retail Store,completed
+636,38,2025-11-06,Online,completed
+637,76,2025-09-01,Marketplace,completed
+638,52,2026-03-14,Online,completed
+639,52,2025-11-28,Marketplace,completed
+640,20,2026-10-26,Online,cancelled
+641,42,2026-04-21,Marketplace,completed
+642,48,2026-03-08,Retail Store,completed
+643,80,2025-07-04,Online,completed
+644,61,2026-09-12,Online,completed
+645,67,2026-01-10,Online,completed
+646,7,2026-05-06,Online,returned
+647,13,2026-06-08,Retail Store,completed
+648,80,2025-11-02,Retail Store,completed
+649,55,2026-07-12,Online,returned
+650,19,2025-11-01,Phone,completed
+651,10,2026-07-16,Online,completed
+652,48,2026-04-14,Retail Store,completed
+653,71,2026-07-20,Retail Store,completed
+654,17,2025-12-20,Retail Store,completed
+655,19,2025-07-13,Marketplace,completed
+656,22,2025-08-11,Online,completed
+657,43,2026-09-27,Online,cancelled
+658,13,2026-04-18,Online,pending
+659,56,2025-11-16,Retail Store,completed
+660,8,2026-10-24,Online,completed
+661,31,2026-07-27,Retail Store,completed
+662,72,2026-06-20,Online,completed
+663,55,2025-08-13,Online,completed
+664,57,2026-05-04,Online,completed
+665,39,2026-11-01,Retail Store,completed
+666,66,2025-05-31,Retail Store,completed
+667,63,2025-06-06,Online,returned
+668,59,2025-10-15,Retail Store,completed
+669,73,2026-01-09,Retail Store,completed
+670,17,2026-07-26,Online,completed
+671,2,2026-07-05,Retail Store,completed
+672,62,2025-08-27,Phone,completed
+673,15,2026-09-09,Online,completed
+674,66,2026-01-17,Online,completed
+675,12,2026-03-04,Online,completed
+676,80,2026-10-17,Online,completed
+677,69,2026-05-01,Online,completed
+678,45,2025-10-03,Retail Store,completed
+679,35,2026-07-11,Online,completed
+680,32,2026-09-04,Retail Store,completed
+681,37,2026-07-04,Online,completed
+682,49,2026-10-02,Online,completed
+683,10,2025-06-26,Online,completed
+684,51,2026-03-29,Online,completed
+685,12,2026-04-07,Online,completed
+686,46,2025-07-26,Marketplace,completed
+687,55,2025-09-03,Online,returned
+688,60,2026-02-28,Online,cancelled
+689,75,2025-09-28,Online,completed
+690,78,2025-08-18,Online,completed
+691,42,2025-09-29,Online,completed
+692,41,2025-09-03,Online,completed
+693,36,2026-01-07,Online,completed
+694,8,2026-08-05,Online,completed
+695,71,2026-09-01,Online,completed
+696,1,2026-10-20,Retail Store,completed
+697,45,2026-08-23,Retail Store,returned
+698,61,2025-11-17,Phone,cancelled
+699,38,2025-11-10,Online,completed
+700,4,2026-04-15,Marketplace,completed
+701,56,2026-06-25,Online,completed
+702,55,2026-10-03,Retail Store,completed
+703,29,2026-01-02,Online,completed
+704,33,2025-12-19,Marketplace,cancelled
+705,62,2025-09-26,Retail Store,completed
+706,26,2025-06-26,Online,cancelled
+707,20,2026-03-25,Retail Store,completed
+708,14,2025-12-26,Online,completed
+709,80,2026-01-03,Marketplace,completed
+710,75,2026-07-31,Retail Store,completed
+711,45,2026-10-18,Online,completed
+712,14,2025-12-25,Marketplace,completed
+713,28,2026-02-06,Online,completed
+714,71,2025-12-06,Online,completed
+715,46,2026-01-10,Online,completed
+716,62,2026-06-07,Retail Store,completed
+717,35,2026-07-14,Online,completed
+718,5,2026-02-15,Retail Store,completed
+719,45,2026-02-18,Online,cancelled
+720,69,2025-09-08,Online,completed
+721,72,2026-10-04,Retail Store,completed
+722,59,2026-06-29,Online,completed
+723,30,2026-01-28,Retail Store,cancelled
+724,59,2025-09-28,Marketplace,cancelled
+725,19,2025-11-04,Marketplace,completed
+726,58,2026-03-18,Retail Store,completed
+727,40,2025-10-13,Retail Store,completed
+728,48,2025-05-28,Online,completed
+729,28,2026-07-06,Online,completed
+730,15,2026-09-25,Phone,completed
+731,66,2026-08-31,Online,completed
+732,44,2026-10-05,Online,pending
+733,55,2026-02-26,Online,completed
+734,67,2025-12-01,Online,completed
+735,21,2025-10-27,Online,completed
+736,59,2025-09-13,Retail Store,completed
+737,28,2025-10-17,Online,returned
+738,41,2025-12-19,Retail Store,completed
+739,77,2025-06-24,Online,completed
+740,16,2026-10-08,Online,completed
+741,22,2026-06-14,Retail Store,completed
+742,79,2026-09-17,Online,completed
+743,51,2026-02-09,Online,completed
+744,50,2026-04-05,Marketplace,completed
+745,24,2026-05-29,Retail Store,completed
+746,10,2026-02-26,Marketplace,completed
+747,3,2025-08-06,Online,completed
+748,76,2026-04-16,Online,completed
+749,33,2025-10-25,Marketplace,completed
+750,78,2026-07-18,Online,completed
+751,61,2026-04-21,Online,completed
+752,52,2025-05-30,Online,completed
+753,76,2026-08-06,Retail Store,completed
+754,73,2025-11-03,Online,completed
+755,48,2026-02-26,Marketplace,completed
+756,24,2026-05-14,Retail Store,completed
+757,24,2025-06-29,Online,completed
+758,51,2025-12-19,Online,completed
+759,9,2025-07-27,Marketplace,cancelled
+760,54,2026-08-27,Marketplace,completed
+761,60,2026-07-27,Retail Store,completed
+762,73,2026-09-17,Online,returned
+763,56,2025-12-18,Online,completed
+764,72,2026-09-02,Online,completed
+765,61,2025-09-03,Online,completed
+766,8,2026-03-03,Phone,completed
+767,62,2026-08-27,Online,completed
+768,42,2026-05-08,Online,completed
+769,73,2025-07-18,Online,returned
+770,25,2025-10-16,Online,completed
+771,74,2026-11-02,Online,pending
+772,56,2026-01-07,Retail Store,completed
+773,43,2025-10-27,Retail Store,completed
+774,46,2026-04-30,Online,returned
+775,30,2026-11-03,Online,completed
+776,60,2026-01-26,Retail Store,completed
+777,44,2025-08-12,Retail Store,returned
+778,75,2025-08-06,Online,completed
+779,17,2026-09-25,Marketplace,completed
+780,40,2026-07-06,Retail Store,pending
+781,54,2025-12-24,Retail Store,completed
+782,65,2026-10-16,Retail Store,completed
+783,20,2025-12-27,Retail Store,completed
+784,71,2026-08-05,Marketplace,completed
+785,43,2025-10-18,Online,completed
+786,43,2026-09-02,Marketplace,completed
+787,75,2026-01-21,Online,completed
+788,20,2026-03-19,Phone,completed
+789,68,2025-09-06,Retail Store,completed
+790,29,2025-10-08,Retail Store,completed
+791,70,2026-10-18,Marketplace,cancelled
+792,51,2026-09-27,Online,completed
+793,43,2026-09-14,Retail Store,completed
+794,11,2026-08-24,Online,completed
+795,62,2026-04-10,Online,pending
+796,70,2026-09-07,Online,completed
+797,73,2025-09-16,Retail Store,completed
+798,23,2026-09-04,Phone,completed
+799,54,2026-07-30,Online,completed
+800,74,2025-05-25,Online,completed
+801,73,2026-05-12,Retail Store,completed
+802,4,2026-03-11,Online,completed
+803,51,2025-10-25,Online,completed
+804,29,2026-04-22,Marketplace,completed
+805,4,2026-01-04,Retail Store,completed
+806,29,2026-02-14,Online,completed
+807,17,2026-03-25,Marketplace,completed
+808,7,2026-08-19,Phone,completed
+809,20,2025-08-21,Retail Store,pending
+810,73,2025-06-11,Marketplace,completed
+811,62,2025-07-09,Marketplace,completed
+812,19,2026-05-05,Retail Store,completed
+813,32,2025-06-13,Retail Store,completed
+814,17,2026-05-17,Marketplace,completed
+815,69,2026-07-20,Retail Store,completed
+816,65,2026-07-25,Marketplace,returned
+817,56,2026-09-26,Retail Store,completed
+818,5,2026-05-30,Online,completed
+819,70,2025-09-07,Retail Store,completed
+820,63,2026-07-12,Retail Store,completed
+821,47,2025-06-25,Retail Store,completed
+822,48,2026-02-09,Retail Store,completed
+823,21,2026-08-05,Online,completed
+824,52,2026-07-25,Online,pending
+825,14,2026-08-13,Online,completed
+826,51,2025-08-17,Phone,completed
+827,8,2026-07-24,Retail Store,completed
+828,44,2025-12-05,Marketplace,completed
+829,28,2026-08-25,Retail Store,completed
+830,39,2025-05-20,Online,completed
+831,8,2026-08-01,Retail Store,pending
+832,46,2026-01-12,Online,completed
+833,23,2025-11-24,Online,completed
+834,22,2025-09-21,Online,completed
+835,80,2025-10-18,Online,completed
+836,24,2026-07-01,Online,completed
+837,36,2026-01-19,Retail Store,completed
+838,2,2025-12-16,Marketplace,completed
+839,17,2025-08-18,Online,completed
+840,3,2026-06-30,Online,completed
+841,70,2026-02-20,Marketplace,returned
+842,35,2026-09-22,Online,completed
+843,25,2025-11-05,Marketplace,completed
+844,23,2026-10-03,Online,completed
+845,63,2026-10-21,Online,completed
+846,16,2026-05-24,Marketplace,completed
+847,17,2026-01-30,Online,completed
+848,11,2025-12-21,Retail Store,completed
+849,30,2025-12-28,Online,completed
+850,32,2026-08-23,Marketplace,completed
+851,4,2026-04-27,Online,completed
+852,6,2026-01-07,Online,pending
+853,19,2026-09-24,Retail Store,completed
+854,79,2026-05-22,Retail Store,completed
+855,12,2025-09-02,Online,cancelled
+856,51,2026-03-19,Online,returned
+857,3,2025-08-14,Online,completed
+858,44,2026-10-06,Online,completed
+859,64,2026-04-07,Marketplace,completed
+860,11,2025-10-19,Retail Store,completed
+861,7,2025-08-21,Online,completed
+862,80,2026-02-22,Retail Store,completed
+863,43,2026-08-23,Retail Store,completed
+864,6,2026-03-03,Retail Store,completed
+865,12,2025-12-12,Retail Store,returned
+866,4,2025-12-03,Online,completed
+867,28,2026-02-13,Marketplace,pending
+868,39,2026-01-15,Online,completed
+869,66,2026-08-28,Phone,completed
+870,54,2026-10-13,Marketplace,completed
+871,46,2026-01-21,Phone,completed
+872,15,2025-07-21,Online,cancelled
+873,25,2026-08-30,Online,completed
+874,16,2025-09-05,Online,cancelled
+875,43,2025-10-27,Online,completed
+876,10,2026-03-25,Phone,completed
+877,50,2025-08-08,Online,completed
+878,28,2025-11-23,Marketplace,completed
+879,24,2026-08-02,Online,completed
+880,56,2026-08-31,Online,completed
+881,65,2025-07-17,Online,completed
+882,70,2026-02-02,Online,completed
+883,15,2026-10-16,Retail Store,completed
+884,35,2026-07-31,Retail Store,completed
+885,18,2026-09-25,Online,returned
+886,65,2026-06-22,Online,completed
+887,15,2025-05-21,Online,completed
+888,6,2025-11-24,Retail Store,completed
+889,41,2026-02-26,Online,completed
+890,1,2026-03-03,Online,cancelled
+891,50,2026-04-30,Retail Store,completed
+892,15,2026-07-08,Marketplace,completed
+893,62,2026-02-07,Online,completed
+894,71,2026-02-06,Phone,completed
+895,20,2026-10-12,Online,completed
+896,79,2025-12-14,Retail Store,completed
+897,55,2026-04-17,Retail Store,completed
+898,29,2025-07-31,Retail Store,completed
+899,11,2026-05-09,Online,completed
+900,74,2025-11-30,Marketplace,completed
+901,18,2025-09-20,Marketplace,completed
+902,56,2026-06-22,Online,completed
+903,10,2026-10-13,Marketplace,cancelled
+904,9,2025-08-28,Online,completed
+905,76,2025-06-27,Retail Store,pending
+906,22,2026-07-06,Online,completed
+907,34,2025-10-15,Online,completed
+908,7,2026-10-03,Online,completed
+909,17,2025-10-03,Online,completed
+910,72,2025-05-18,Online,completed
+911,61,2026-03-10,Retail Store,completed
+912,30,2025-06-20,Phone,pending
+913,3,2025-12-28,Retail Store,completed
+914,44,2026-07-19,Online,completed
+915,76,2025-11-22,Online,cancelled
+916,35,2026-05-13,Online,completed
+917,57,2025-12-25,Online,completed
+918,56,2025-07-17,Marketplace,completed
+919,41,2026-09-18,Online,completed
+920,73,2026-08-17,Marketplace,completed
+921,53,2026-09-13,Marketplace,completed
+922,19,2026-10-14,Online,completed
+923,32,2025-10-05,Retail Store,completed
+924,17,2025-12-16,Retail Store,completed
+925,39,2025-07-25,Marketplace,completed
+926,55,2025-08-20,Retail Store,completed
+927,69,2026-04-21,Marketplace,completed
+928,9,2025-11-16,Online,completed
+929,57,2025-12-20,Online,completed
+930,66,2026-04-28,Phone,completed
+931,53,2026-10-09,Phone,completed
+932,25,2026-09-23,Online,completed
+933,6,2026-05-05,Online,cancelled
+934,52,2026-06-23,Online,completed
+935,46,2026-10-31,Online,completed
+936,34,2025-07-25,Online,completed
+937,46,2025-07-24,Retail Store,completed
+938,67,2026-04-03,Online,completed
+939,64,2026-09-26,Retail Store,completed
+940,46,2026-07-04,Online,returned
+941,27,2026-08-08,Online,completed
+942,29,2026-09-24,Online,completed
+943,49,2025-08-10,Online,completed
+944,77,2025-09-14,Online,completed
+945,37,2025-11-02,Online,completed
+946,2,2025-11-01,Online,pending
+947,22,2026-02-03,Online,completed
+948,53,2026-02-17,Online,completed
+949,15,2026-10-31,Online,completed
+950,2,2026-06-07,Online,completed
+951,60,2025-08-31,Online,completed
+952,64,2026-10-20,Marketplace,completed
+953,19,2025-10-22,Online,pending
+954,49,2026-06-22,Online,returned
+955,34,2026-09-28,Retail Store,cancelled
+956,59,2025-12-19,Marketplace,completed
+957,60,2025-09-02,Retail Store,completed
+958,15,2026-10-26,Online,completed
+959,23,2025-12-31,Online,completed
+960,30,2026-10-01,Retail Store,completed
+961,60,2026-06-12,Online,pending
+962,27,2026-10-21,Retail Store,completed
+963,60,2026-06-01,Online,completed
+964,46,2026-10-06,Online,completed
+965,17,2025-09-10,Online,completed
+966,12,2026-07-01,Retail Store,completed
+967,5,2025-06-06,Retail Store,completed
+968,27,2026-10-06,Retail Store,completed
+969,12,2025-12-26,Online,completed
+970,42,2026-07-28,Online,completed
+971,1,2026-06-18,Phone,completed
+972,23,2026-06-19,Phone,completed
+973,20,2026-07-08,Retail Store,completed
+974,32,2026-09-23,Online,completed
+975,69,2026-03-17,Retail Store,completed
+976,8,2026-03-14,Online,completed
+977,61,2026-08-26,Online,completed
+978,70,2025-11-07,Online,completed
+979,64,2026-01-21,Online,completed
+980,15,2026-06-21,Retail Store,completed
+981,13,2026-05-30,Retail Store,completed
+982,27,2025-10-28,Retail Store,completed
+983,50,2025-08-10,Retail Store,completed
+984,60,2025-09-28,Online,pending
+985,30,2025-06-16,Phone,cancelled
+986,36,2025-12-23,Online,completed
+987,79,2025-12-15,Online,completed
+988,38,2025-06-03,Online,completed
+989,53,2026-07-02,Marketplace,pending
+990,26,2026-04-11,Online,completed
+991,5,2026-09-03,Retail Store,completed
+992,77,2025-10-13,Retail Store,completed
+993,9,2026-03-06,Retail Store,completed
+994,36,2026-04-08,Online,completed
+995,63,2026-08-01,Retail Store,pending
+996,45,2026-09-08,Online,completed
+997,25,2026-06-26,Online,completed
+998,70,2026-10-21,Retail Store,completed
+999,50,2026-09-11,Retail Store,completed
+1000,35,2026-02-12,Online,completed
+1001,5,2025-10-03,Marketplace,completed
+1002,2,2025-08-20,Online,pending
+1003,20,2026-06-24,Marketplace,pending
+1004,2,2026-03-28,Marketplace,completed
+1005,79,2026-10-10,Online,completed
+1006,38,2026-08-09,Marketplace,completed
+1007,37,2025-11-05,Online,completed
+1008,58,2025-10-02,Online,cancelled
+1009,70,2025-06-17,Retail Store,completed
+1010,40,2026-06-26,Marketplace,completed
+1011,17,2025-10-06,Online,completed
+1012,59,2026-08-08,Online,completed
+1013,40,2025-10-01,Retail Store,completed
+1014,2,2025-11-26,Retail Store,completed
+1015,64,2026-10-29,Marketplace,returned
+1016,49,2026-09-16,Phone,returned
+1017,10,2026-09-16,Online,completed
+1018,48,2025-07-21,Marketplace,completed
+1019,17,2025-07-29,Online,completed
+1020,80,2026-10-23,Online,cancelled
+1021,26,2026-10-20,Online,completed
+1022,21,2025-08-27,Retail Store,completed
+1023,14,2026-02-26,Online,pending
+1024,25,2025-07-03,Online,completed
+1025,25,2026-09-17,Retail Store,completed
+1026,72,2026-09-21,Retail Store,completed
+1027,4,2026-07-27,Marketplace,completed
+1028,39,2026-03-01,Online,cancelled
+1029,56,2026-05-20,Online,completed
+1030,5,2026-03-20,Online,completed
+1031,33,2025-11-02,Retail Store,completed
+1032,47,2025-10-08,Online,completed
+1033,75,2026-10-11,Online,completed
+1034,47,2026-07-01,Online,completed
+1035,19,2026-03-16,Marketplace,completed
+1036,36,2026-02-04,Online,completed
+1037,37,2025-06-18,Marketplace,completed
+1038,40,2026-07-13,Retail Store,cancelled
+1039,11,2026-06-06,Retail Store,completed
+1040,34,2026-04-08,Marketplace,completed
+1041,4,2025-10-11,Online,completed
+1042,79,2026-07-07,Online,completed
+1043,31,2026-04-15,Online,completed
+1044,24,2026-02-19,Online,returned
+1045,13,2025-12-04,Retail Store,completed
+1046,9,2025-09-11,Marketplace,completed
+1047,80,2025-09-10,Online,completed
+1048,37,2025-06-28,Retail Store,completed
+1049,66,2025-07-29,Retail Store,completed
+1050,67,2026-09-15,Online,completed
+1051,12,2026-05-26,Retail Store,cancelled
+1052,47,2026-02-09,Retail Store,completed
+1053,71,2026-02-26,Online,returned
+1054,37,2025-11-05,Online,completed
+1055,30,2026-01-09,Online,completed
+1056,61,2025-11-15,Online,cancelled
+1057,13,2026-01-05,Online,completed
+1058,27,2025-11-26,Online,completed
+1059,12,2026-06-07,Online,cancelled
+1060,12,2025-09-26,Online,completed
+1061,59,2025-06-30,Online,completed
+1062,21,2025-12-08,Online,returned
+1063,39,2026-06-25,Retail Store,cancelled
+1064,43,2026-02-13,Retail Store,completed
+1065,46,2026-07-18,Phone,pending
+1066,12,2026-02-25,Retail Store,completed
+1067,11,2025-07-12,Online,completed
+1068,7,2026-04-03,Online,completed
+1069,70,2026-08-13,Marketplace,completed
+1070,36,2026-02-28,Retail Store,completed
+1071,71,2026-04-25,Retail Store,completed
+1072,8,2025-12-06,Marketplace,completed
+1073,33,2026-05-31,Online,completed
+1074,44,2025-09-26,Online,completed
+1075,19,2025-08-12,Online,completed
+1076,8,2026-03-11,Online,returned
+1077,48,2026-09-17,Retail Store,cancelled
+1078,37,2026-04-17,Online,completed
+1079,19,2026-08-16,Online,completed
+1080,38,2026-10-27,Retail Store,completed
+1081,74,2026-01-24,Retail Store,completed
+1082,4,2026-10-05,Online,completed
+1083,66,2026-06-08,Online,returned
+1084,76,2026-02-09,Retail Store,completed
+1085,50,2025-10-05,Online,completed
+1086,71,2026-10-14,Online,completed
+1087,47,2025-09-01,Online,completed
+1088,9,2025-06-21,Online,completed
+1089,12,2026-03-20,Marketplace,completed
+1090,23,2026-03-29,Online,completed
+1091,44,2025-10-29,Marketplace,completed
+1092,32,2026-09-16,Online,pending
+1093,7,2026-05-08,Online,cancelled
+1094,12,2026-11-01,Online,pending
+1095,51,2025-10-10,Retail Store,completed
+1096,47,2026-10-24,Online,completed
+1097,49,2026-06-27,Online,completed
+1098,62,2026-09-18,Online,completed
+1099,28,2026-05-05,Retail Store,completed
+1100,64,2025-07-03,Online,returned
+1101,16,2026-04-02,Online,completed
+1102,71,2026-06-01,Retail Store,completed
+1103,29,2026-01-12,Online,completed
+1104,49,2025-09-25,Online,completed
+1105,58,2026-01-01,Online,cancelled
+1106,40,2026-08-21,Marketplace,completed
+1107,25,2026-07-07,Online,pending
+1108,66,2026-07-09,Retail Store,completed
+1109,66,2025-12-02,Marketplace,completed
+1110,79,2025-12-16,Marketplace,completed
+1111,10,2026-10-11,Online,completed
+1112,1,2026-06-30,Online,completed
+1113,45,2025-09-19,Marketplace,completed
+1114,6,2025-10-29,Retail Store,completed
+1115,14,2026-01-21,Online,completed
+1116,28,2025-06-06,Online,returned
+1117,59,2026-04-28,Online,completed
+1118,24,2026-09-03,Retail Store,completed
+1119,40,2026-02-20,Retail Store,completed
+1120,54,2025-07-23,Retail Store,cancelled
+1121,15,2026-07-13,Online,completed
+1122,37,2025-11-26,Online,completed
+1123,28,2026-08-16,Online,completed
+1124,61,2026-03-03,Marketplace,completed
+1125,33,2026-08-22,Phone,completed
+1126,65,2026-10-09,Online,cancelled
+1127,24,2026-08-25,Online,cancelled
+1128,1,2026-07-28,Online,completed
+1129,74,2026-09-29,Online,completed
+1130,46,2026-03-02,Online,completed
+1131,60,2026-10-08,Online,completed
+1132,35,2025-05-22,Online,completed
+1133,12,2025-11-08,Retail Store,completed
+1134,67,2026-06-10,Retail Store,completed
+1135,57,2026-07-14,Marketplace,cancelled
+1136,21,2026-10-05,Retail Store,completed
+1137,47,2026-09-25,Online,completed
+1138,73,2026-02-25,Retail Store,completed
+1139,25,2026-01-30,Online,completed
+1140,62,2025-07-27,Online,completed
+1141,45,2026-01-22,Online,completed
+1142,40,2026-02-21,Online,pending
+1143,63,2026-04-27,Online,completed
+1144,69,2026-01-06,Online,returned
+1145,59,2026-02-11,Online,completed
+1146,76,2025-10-04,Online,pending
+1147,55,2026-09-24,Retail Store,completed
+1148,50,2025-10-08,Online,completed
+1149,76,2025-06-07,Online,pending
+1150,5,2025-07-14,Marketplace,completed
+1151,50,2025-09-06,Retail Store,completed
+1152,29,2026-07-30,Retail Store,completed
+1153,62,2026-10-13,Online,completed
+1154,4,2026-08-12,Marketplace,completed
+1155,73,2026-10-31,Marketplace,completed
+1156,25,2025-08-30,Online,completed
+1157,27,2025-10-02,Marketplace,completed
+1158,5,2026-06-03,Marketplace,completed
+1159,58,2026-07-05,Online,completed
+1160,42,2026-06-07,Retail Store,completed
+1161,71,2025-08-16,Online,completed
+1162,42,2026-02-08,Online,completed
+1163,26,2026-05-09,Online,completed
+1164,6,2025-09-19,Online,completed
+1165,18,2026-11-03,Retail Store,completed
+1166,60,2025-08-02,Online,completed
+1167,10,2025-05-23,Online,completed
+1168,51,2026-03-17,Online,completed
+1169,25,2026-08-07,Online,completed
+1170,10,2026-10-30,Marketplace,returned
+1171,32,2025-08-19,Retail Store,completed
+1172,21,2026-08-04,Online,completed
+1173,37,2026-07-14,Online,completed
+1174,73,2026-10-16,Marketplace,pending
+1175,67,2026-06-28,Retail Store,returned
+1176,17,2026-04-11,Online,cancelled
+1177,15,2026-07-13,Online,completed
+1178,10,2026-07-10,Retail Store,completed
+1179,60,2026-05-31,Online,returned
+1180,40,2026-08-09,Online,completed
+1181,63,2026-03-31,Online,completed
+1182,50,2026-05-01,Retail Store,completed
+1183,6,2025-08-31,Online,completed
+1184,41,2025-08-05,Online,returned
+1185,65,2025-07-30,Online,completed
+1186,17,2026-11-03,Retail Store,completed
+1187,77,2026-06-20,Retail Store,pending
+1188,34,2025-06-06,Online,returned
+1189,54,2026-04-10,Online,completed
+1190,55,2026-07-26,Retail Store,completed
+1191,2,2025-07-28,Retail Store,completed
+1192,35,2025-10-12,Online,completed
+1193,14,2025-10-14,Online,completed
+1194,4,2026-07-14,Phone,completed
+1195,11,2025-08-05,Retail Store,completed
+1196,56,2025-08-31,Marketplace,completed
+1197,10,2026-08-08,Marketplace,returned
+1198,30,2026-08-05,Online,completed
+1199,13,2025-11-06,Online,completed
+1200,47,2026-09-26,Retail Store,completed
+1201,4,2026-05-09,Online,completed
+1202,71,2026-07-08,Online,completed
+1203,71,2025-09-26,Online,completed
+1204,70,2026-09-09,Retail Store,completed
+1205,57,2026-08-02,Online,cancelled
+1206,31,2026-06-15,Online,completed
+1207,34,2026-04-29,Online,completed
+1208,59,2026-06-04,Marketplace,completed
+1209,31,2026-02-16,Online,completed
+1210,20,2025-09-04,Phone,completed
+1211,57,2025-06-20,Retail Store,completed
+1212,24,2026-07-30,Marketplace,returned
+1213,57,2025-08-15,Online,completed
+1214,53,2025-07-19,Online,completed
+1215,63,2026-03-29,Online,completed
+1216,6,2025-09-13,Marketplace,completed
+1217,67,2026-08-27,Marketplace,completed
+1218,47,2026-08-13,Online,returned
+1219,44,2026-01-08,Online,completed
+1220,24,2026-03-20,Retail Store,completed
+1221,57,2026-02-12,Online,returned
+1222,59,2025-12-25,Retail Store,completed
+1223,36,2026-08-08,Online,cancelled
+1224,79,2025-12-09,Online,completed
+1225,42,2025-10-15,Retail Store,completed
+1226,58,2026-08-30,Online,pending
+1227,75,2026-05-29,Phone,completed
+1228,31,2026-09-14,Online,completed
+1229,15,2025-10-25,Online,completed
+1230,8,2026-02-07,Online,completed
+1231,32,2026-02-11,Marketplace,completed
+1232,23,2026-01-27,Marketplace,completed
+1233,51,2026-08-07,Online,completed
+1234,49,2026-03-09,Online,returned
+1235,3,2026-09-06,Online,completed
+1236,4,2025-10-26,Online,completed
+1237,16,2026-10-06,Online,completed
+1238,79,2026-08-18,Online,completed
+1239,49,2025-07-10,Retail Store,completed
+1240,71,2025-11-05,Retail Store,completed
+1241,13,2025-08-11,Online,completed
+1242,9,2025-09-25,Online,completed
+1243,72,2025-07-28,Online,completed
+1244,76,2026-06-18,Online,completed
+1245,11,2026-11-01,Retail Store,completed
+1246,22,2026-10-18,Retail Store,returned
+1247,27,2026-05-04,Online,completed
+1248,30,2025-06-28,Online,completed
+1249,58,2026-04-21,Marketplace,completed
+1250,42,2025-11-02,Online,completed
+1251,49,2026-04-18,Online,completed
+1252,34,2026-03-03,Marketplace,completed
+1253,76,2026-05-22,Retail Store,completed
+1254,60,2026-01-11,Online,completed
+1255,70,2025-05-15,Retail Store,completed
+1256,79,2026-08-25,Marketplace,completed
+1257,28,2026-06-01,Online,completed
+1258,56,2025-12-03,Online,completed
+1259,53,2025-09-20,Online,completed
+1260,2,2026-05-21,Marketplace,returned
+1261,57,2026-01-15,Retail Store,completed
+1262,23,2026-06-23,Online,completed
+1263,9,2026-02-03,Retail Store,completed
+1264,39,2025-11-03,Online,completed
+1265,69,2026-10-31,Retail Store,cancelled
+1266,33,2026-09-14,Marketplace,returned
+1267,12,2026-10-23,Online,completed
+1268,16,2025-11-04,Online,completed
+1269,45,2026-04-10,Online,completed
+1270,9,2026-08-29,Online,completed
+1271,76,2026-07-11,Online,completed
+1272,51,2026-05-05,Marketplace,completed
+1273,21,2026-03-09,Online,completed
+1274,60,2026-10-27,Phone,cancelled
+1275,48,2026-01-19,Retail Store,completed
+1276,65,2026-04-02,Online,completed
+1277,25,2026-07-29,Marketplace,completed
+1278,54,2025-11-26,Retail Store,completed
+1279,4,2025-07-21,Marketplace,completed
+1280,27,2026-02-08,Retail Store,completed
+1281,78,2025-07-14,Retail Store,completed
+1282,72,2026-09-06,Retail Store,completed
+1283,15,2026-07-28,Phone,completed
+1284,45,2025-08-11,Retail Store,completed
+1285,31,2025-05-24,Online,completed
+1286,51,2026-03-13,Retail Store,completed
+1287,78,2026-07-05,Online,completed
+1288,69,2026-07-24,Retail Store,completed
+1289,41,2026-05-25,Online,cancelled
+1290,36,2025-11-08,Online,completed
+1291,41,2026-08-09,Online,completed
+1292,17,2026-06-05,Retail Store,completed
+1293,66,2025-08-09,Online,completed
+1294,3,2026-04-22,Online,completed
+1295,11,2026-04-28,Marketplace,completed
+1296,63,2026-05-14,Online,completed
+1297,21,2025-09-27,Online,completed
+1298,26,2025-08-19,Online,completed
+1299,57,2025-12-15,Online,completed
+1300,43,2026-10-22,Online,completed
+1301,59,2026-04-30,Online,cancelled
+1302,51,2025-11-18,Marketplace,completed
+1303,64,2026-01-17,Online,completed
+1304,51,2026-05-20,Online,completed
+1305,76,2026-08-13,Online,completed
+1306,40,2026-08-23,Retail Store,completed
+1307,76,2026-03-09,Retail Store,completed
+1308,6,2025-11-15,Online,completed
+1309,65,2026-03-16,Online,returned
+1310,61,2025-07-27,Online,completed
+1311,11,2026-05-09,Phone,completed
+1312,27,2026-08-14,Online,completed
+1313,71,2026-01-13,Online,completed
+1314,49,2025-07-24,Retail Store,completed
+1315,61,2026-08-29,Online,completed
+1316,50,2026-05-20,Retail Store,completed
+1317,37,2025-12-10,Retail Store,completed
+1318,23,2025-08-14,Online,completed
+1319,4,2026-07-15,Retail Store,returned
+1320,61,2026-08-22,Retail Store,completed
+1321,21,2026-02-28,Retail Store,completed
+1322,56,2025-12-28,Retail Store,completed
+1323,76,2026-09-15,Online,completed
+1324,37,2026-07-21,Marketplace,completed
+1325,39,2025-09-05,Online,completed
+1326,28,2025-12-25,Phone,completed
+1327,23,2026-05-29,Retail Store,completed
+1328,53,2026-08-27,Online,completed
+1329,11,2026-09-06,Retail Store,pending
+1330,27,2025-10-30,Online,completed
+1331,65,2025-12-09,Online,completed
+1332,75,2026-06-14,Retail Store,completed
+1333,80,2026-03-19,Retail Store,completed
+1334,33,2026-09-15,Online,returned
+1335,24,2025-11-19,Online,completed
+1336,36,2026-01-27,Phone,completed
+1337,20,2025-06-06,Online,completed
+1338,54,2025-10-24,Online,completed
+1339,70,2025-12-13,Online,completed
+1340,5,2026-07-12,Online,completed
+1341,38,2026-10-08,Marketplace,completed
+1342,74,2026-03-06,Marketplace,completed
+1343,13,2025-06-16,Online,completed
+1344,6,2026-10-16,Online,completed
+1345,75,2026-04-15,Marketplace,completed
+1346,18,2025-09-15,Phone,completed
+1347,1,2025-09-30,Online,completed
+1348,74,2026-01-17,Online,completed
+1349,37,2025-08-01,Online,pending
+1350,51,2026-01-03,Online,completed
+1351,20,2025-10-10,Retail Store,completed
+1352,20,2026-08-07,Online,completed
+1353,32,2026-10-17,Phone,completed
+1354,36,2026-10-15,Retail Store,completed
+1355,73,2026-01-06,Online,completed
+1356,63,2025-10-18,Retail Store,completed
+1357,51,2026-07-22,Retail Store,completed
+1358,17,2026-09-27,Online,pending
+1359,41,2026-02-24,Online,cancelled
+1360,12,2025-07-23,Retail Store,completed
+1361,72,2026-02-14,Online,completed
+1362,23,2026-07-28,Online,completed
+1363,5,2025-07-24,Online,returned
+1364,12,2026-04-07,Retail Store,completed
+1365,72,2026-08-04,Online,completed
+1366,23,2025-12-18,Online,completed
+1367,56,2026-04-17,Online,completed
+1368,8,2026-01-21,Online,completed
+1369,56,2026-07-16,Online,completed
+1370,78,2026-04-05,Online,completed
+1371,9,2026-03-31,Marketplace,completed
+1372,39,2026-06-18,Retail Store,completed
+1373,42,2026-03-27,Retail Store,completed
+1374,33,2026-05-13,Marketplace,completed
+1375,33,2025-09-11,Retail Store,cancelled
+1376,21,2026-01-04,Marketplace,completed
+1377,63,2026-01-28,Online,pending
+1378,67,2026-10-20,Online,completed
+1379,63,2026-06-13,Online,completed
+1380,74,2026-02-12,Retail Store,completed
+1381,29,2026-05-31,Retail Store,pending
+1382,74,2026-09-28,Retail Store,pending
+1383,36,2026-04-10,Marketplace,completed
+1384,25,2026-05-12,Online,completed
+1385,36,2025-08-08,Online,completed
+1386,75,2026-09-28,Marketplace,completed
+1387,2,2025-10-22,Online,completed
+1388,40,2026-09-03,Marketplace,completed
+1389,12,2026-02-15,Online,cancelled
+1390,15,2025-06-14,Online,completed
+1391,3,2025-10-03,Online,completed
+1392,13,2025-09-20,Marketplace,cancelled
+1393,72,2025-08-12,Retail Store,completed
+1394,32,2025-08-04,Online,completed
+1395,31,2025-10-27,Retail Store,completed
+1396,52,2025-12-06,Online,completed
+1397,28,2025-08-22,Phone,completed
+1398,59,2026-04-08,Online,completed
+1399,72,2025-09-14,Online,completed
+1400,53,2026-05-25,Online,completed

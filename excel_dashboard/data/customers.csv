@@ -1,0 +1,81 @@
+customer_id,customer_name,region,segment
+1,Liam Walker,North America,Consumer
+2,Mia Rossi,Europe,Consumer
+3,Emma Cohen,North America,Small Business
+4,Mateo Cohen,North America,Small Business
+5,Nora Nguyen,North America,Small Business
+6,Ivan Moreau,North America,Consumer
+7,Zara Novak,North America,Enterprise
+8,Emma Johansson,Asia Pacific,Small Business
+9,Diego Nguyen,Europe,Small Business
+10,Hana Rossi,Europe,Consumer
+11,Ivan Okafor,Asia Pacific,Small Business
+12,Ava Lopez,North America,Small Business
+13,Rafael Nguyen,Europe,Consumer
+14,Liam Nguyen,North America,Consumer
+15,Tariq Novak,North America,Consumer
+16,Lena Garcia,Europe,Enterprise
+17,Noah Lopez,Europe,Consumer
+18,Omar Silva,North America,Enterprise
+19,Mia Ivanov,North America,Enterprise
+20,Elena Bianchi,Asia Pacific,Enterprise
+21,Priya Ivanov,Europe,Small Business
+22,Ethan Ivanov,North America,Small Business
+23,Elena Patel,Latin America,Small Business
+24,Liam Kim,Asia Pacific,Enterprise
+25,Lucas Nguyen,Asia Pacific,Enterprise
+26,Priya Kim,North America,Small Business
+27,Elena Tanaka,Asia Pacific,Small Business
+28,Lena Tanaka,Asia Pacific,Consumer
+29,Aria Kim,Europe,Consumer
+30,Rafael Patel,North America,Small Business
+31,Priya Dubois,Asia Pacific,Small Business
+32,Mateo Dubois,North America,Small Business
+33,Omar Lopez,Asia Pacific,Consumer
+34,Aria Rossi,North America,Consumer
+35,Ivan Patel,North America,Small Business
+36,Yuki Lopez,North America,Consumer
+37,Mateo Garcia,North America,Consumer
+38,Priya Tanaka,North America,Small Business
+39,Nora Patel,Asia Pacific,Enterprise
+40,Ethan Tanaka,Latin America,Enterprise
+41,Noah Tanaka,Asia Pacific,Consumer
+42,Liam Moreau,Europe,Consumer
+43,Elena Mueller,North America,Small Business
+44,Hana Kim,Asia Pacific,Consumer
+45,Priya Patel,North America,Enterprise
+46,Chen Walker,North America,Enterprise
+47,Chen Ivanov,Europe,Small Business
+48,Ivan Kim,Asia Pacific,Enterprise
+49,Mateo Okafor,North America,Enterprise
+50,Sofia Santos,Europe,Small Business
+51,Ava Cohen,Europe,Consumer
+52,Kai Tanaka,North America,Enterprise
+53,Chen Novak,North America,Enterprise
+54,Ivan Novak,North America,Enterprise
+55,Yuki Kim,North America,Small Business
+56,Diego Santos,Europe,Small Business
+57,Nora Bianchi,North America,Enterprise
+58,Nora Lopez,Asia Pacific,Small Business
+59,Rafael Santos,North America,Small Business
+60,Zara Dubois,North America,Enterprise
+61,Nora Rossi,Europe,Consumer
+62,Ivan Lopez,Asia Pacific,Enterprise
+63,Sofia Rossi,North America,Consumer
+64,Nora Novak,North America,Small Business
+65,Omar Ivanov,Asia Pacific,Small Business
+66,Emma Patel,North America,Small Business
+67,Maya Haddad,North America,Consumer
+68,Tariq Okafor,North America,Consumer
+69,Tariq Dubois,North America,Enterprise
+70,Lena Ivanov,Latin America,Small Business
+71,Lena Okafor,Asia Pacific,Small Business
+72,Liam Bianchi,Latin America,Consumer
+73,Emma Bianchi,Asia Pacific,Enterprise
+74,Elena Santos,North America,Small Business
+75,Diego Patel,Europe,Consumer
+76,Ava Moreau,North America,Enterprise
+77,Emma Haddad,North America,Consumer
+78,Lena Patel,Asia Pacific,Consumer
+79,Kai Moreau,North America,Enterprise
+80,Yuki Santos,North America,Small Business
