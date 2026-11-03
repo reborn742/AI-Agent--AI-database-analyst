@@ -71,3 +71,8 @@ excel_dashboard/
 ├── build_dashboard.py
 ├── quality_check.py
 └── README.md
+
+
+## Dashboard Preview
+
+![Retail Sales Dashboard](images/dashboard-preview.png)
