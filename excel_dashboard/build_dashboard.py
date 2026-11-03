@@ -2,14 +2,12 @@
 from pathlib import Path
 
 import pandas as pd
-
 from openpyxl import Workbook, load_workbook
-from openpyxl.styles import Font, PatternFill, Alignment
-from openpyxl.worksheet.table import Table, TableStyleInfo
 from openpyxl.chart import BarChart, LineChart, Reference
 from openpyxl.formatting.rule import DataBarRule
+from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.utils import get_column_letter
-
+from openpyxl.worksheet.table import Table, TableStyleInfo
 
 # ============================================================
 # 1. PATHS AND CONFIGURATION
