@@ -73,6 +73,6 @@ excel_dashboard/
 └── README.md
 
 
-## Dashboard Preview
+## Excel Dashboard Preview
 
-![Retail Sales Dashboard](images/dashboard-preview.png)
+![Retail Sales Dashboard](images/dashboard-preview.PNG)
