@@ -137,3 +137,22 @@ mysql-connector-python 26.10.
 ## License
 
 [MIT](LICENSE)
+
+## Additional Project: Retail Sales Excel Dashboard
+
+An Excel-based retail sales analytics dashboard built using Python, pandas, and openpyxl. It transforms synthetic retail transaction data into interactive KPI summaries, financial analysis, and business performance reports.
+
+### Dashboard Preview
+
+![Retail Sales Dashboard](excel_dashboard/images/dashboard-preview.PNG)
+
+**Dashboard highlights:**
+- 6 KPI cards: Revenue, Estimated Gross Profit, Completed Orders, Average Order Value, Customers, and Gross Margin.
+- Monthly revenue and profit trends.
+- Regional revenue comparison.
+- Product, customer, channel, and sales analysis.
+- 7 worksheets with Excel tables, filters, and charts.
+
+**Verified dataset:** 2,131 completed sales records, 1,188 completed orders, and 80 customers.
+
+[Download the Excel Dashboard](excel_dashboard/output/retail_sales_dashboard_v2.xlsx) | [View Project Source](excel_dashboard/)
